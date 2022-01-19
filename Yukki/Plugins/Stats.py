@@ -65,7 +65,7 @@ async def gstats(_, message):
     smex = f"""
 [•]<u>**General Stats**</u>
 
-Ping: `⚡{resp} ms`
+Ping: `😁{resp} ms`
 {uptime}
     """
     await response.edit_text(smex, reply_markup=stats1)
@@ -220,7 +220,7 @@ async def stats_markup(_, CallbackQuery):
         smex = f"""
 [•]<u>General Stats</u>
 
-**Ping:** `⚡{resp} ms`
+**Ping:** `😁{resp} ms`
 {uptime}"""
         await CallbackQuery.edit_message_text(smex, reply_markup=stats1)
     if command == "wait_stats":
